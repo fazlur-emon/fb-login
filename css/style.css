@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+header{
+    height: 100px;
+    background: #3F5C99; 
+}
+.header-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+
+}
+.logo img{
+    
+}
+.form-section{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 10px;
+
+}
+.email{
+    width: 100%;
+
+    margin-left: 214px;
+}
+.email input{
+    border: none;
+
+}
+.pass{
+    width: 100%;
+    
+}
+.pass input{
+    border: none;
+
+}
+.pass h6{
+    margin-top: 10px;
+    color: #6B86B7;
+    font-size: 15px;
+}
+.submit{
+
+    margin-right: 16px;
+    margin-top: 14px;
+}
+.submit input{
+    background:#4267B0;
+    width:45px;
+    height: 25px;
+    color: white;
+    border-color: rgba(99, 99, 99, 0.515);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.body{
+    background-image: linear-gradient(#F8F8FA, #dce1f4);
+    min-height: 86vh;
+}
+.feature{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+
+}
+.left-content{
+    width: 45%;
+    padding: 50px 0px;
+    
+}
+.left-content h1{
+    color: #103C62;
+    font-size: 30px;
+    margin-bottom: 15px;
+    
+}
+.feature-img{
+    width: auto;
+    margin-top: 50px;
+
+    
+}
+.feature-img img{
+
+}
+.right-content{
+    width: 45%;
+
+    
+}
+.right-content h1{
+    font-size: 50px;
+    margin-top: 30px;
+    color: #323232;
+
+}
+.right-content h3{
+    color: #3232326b;
+    margin-bottom: 15px;
+
+}
+.right-content input{
+    border: transparent;
+    background: white;
+    border: 2px solid rgba(123, 123, 123, 0.453);    
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    outline: none;
+}
+.right-content input[type="email"]{
+    width: 100%;
+}
+.right-content input[type="password"]{
+    width: 100%;
+}
+.right-content input[type="submit"]{
+    border: 1px solid rgba(209, 209, 209, 0.549);
+    width: 40%;
+    background-image: radial-gradient(#65b549, #578945);
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+    cursor: pointer;
+}
+.right-content p{
+    padding: 20px 0px;
+
+}
